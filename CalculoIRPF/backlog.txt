@@ -1,0 +1,8 @@
+Cadastrar deudções
+    - Previdencia Oficial
+    - Dependentes
+    - Pensao alimenticia
+    - Outras deduções
+
+OK Cadastrar redimentos
+OK Calcular total rendimentos
