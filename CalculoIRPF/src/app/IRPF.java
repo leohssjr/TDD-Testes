@@ -10,7 +10,7 @@ public class IRPF {
     }
 
 
-    public void CadastrarSalario(float salario) {
+    public void cadastrarSalario(float salario) {
         this.salario += salario;
     }
 
@@ -18,7 +18,7 @@ public class IRPF {
         return this.salario;
     }
 
-    public void CadastrarPrevidenciaOficial(float contribuicaoPrevidenciaria) {
+    public void cadastrarPrevidenciaOficial(float contribuicaoPrevidenciaria) {
         this.contribuicaoPrevidenciaria = contribuicaoPrevidenciaria;
     }
 
@@ -35,7 +35,7 @@ public class IRPF {
         dependentes = temp;
     }
 
-    public floar getDeducaoDependentes() {
+    public float getDeducaoDependentes() {
         return dependentes.length * 189.59f;
 
         // if(dependentes.length == 1) {
